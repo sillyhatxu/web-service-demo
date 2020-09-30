@@ -5,5 +5,8 @@ import (
 )
 
 func main() {
+	//os.Setenv("TEST","hello internal")
+	//os.Setenv("MOCK_DETAIL",`{"id":1,"value":"hello world","name":"test","time":"2020-09-27"}`)
+	//api.InitialAPI(8082)
 	api.InitialAPI(8080)
 }
